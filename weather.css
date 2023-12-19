@@ -39,21 +39,28 @@ img {
   justify-content: center;
 }
 .search input {
-  transform: scale(2, 1.5);
+  transform: scale(1.4, 1);
   border-radius: 30px;
   border: none;
   color: black;
+  /* margin: 10px; */
 }
 .search input::placeholder {
   color: #236e6c;
   font-size: 12px;
   padding-left: 30px;
 }
-
+.search button {
+  color: transparent;
+  background-color: transparent;
+  border: none;
+}
 .search img {
-  width: 60px;
-  height: 60px;
-  transform: translate(80px, 5px);
+  width: 50px;
+  height: 50px;
+  transform: translate(40px, 2px);
+  background-color: white;
+  border-radius: 30px;
 }
 
 .weather {
@@ -81,8 +88,8 @@ img {
   align-items: center;
 }
 .humidity img {
-  width: 200px;
-  height: 200px;
+  width: 60%;
+  height: 500%;
   margin-bottom: 50px;
 }
 .wind {
@@ -91,7 +98,7 @@ img {
   align-items: center;
 }
 .wind img {
-  width: 200px;
-  height: 200px;
+  width: 60%;
+  height: 500%;
   margin-bottom: 50px;
 }
