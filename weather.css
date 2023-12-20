@@ -5,7 +5,7 @@
   font-family: "Inter", sans-serif;
   font-family: "Montserrat", sans-serif;
   font-family: "Playpen Sans", cursive;
-  color: rgba(255, 255, 255, 0.451);
+  color: rgba(255, 255, 255, 0.751);
 }
 html,
 body {
@@ -14,7 +14,7 @@ body {
   background: gray;
 }
 img {
-  opacity: 0.7;
+  opacity: 0.9;
 }
 
 .container {
@@ -68,13 +68,16 @@ img {
   flex-direction: column;
 }
 .weather img {
-  width: 300px;
-  height: 300px;
-  margin-bottom: 50px;
+  width: 350px;
+  height: 350px;
+  margin-bottom: 10px;
 }
 .weather h1 {
   font-size: 50px;
   line-height: 60px;
+}
+.weather h2 {
+  text-align: center;
 }
 .details {
   display: flex;
